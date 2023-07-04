@@ -334,7 +334,7 @@ na_count_list <- paste(names(na_count), na_count, sep = ": ")
 print(na_count_list)
 ```
 
-A **variável resposta** do projeto é a "value_eur", que apresenta 1897 dados faltantes. Dentro do contexto deste projeto, decidi remover os dados faltantes, uma vez que se trata de um primeiro ciclo, com dados experimentais.  
+A **variável resposta** do projeto é a "value_eur", que apresenta 275 dados faltantes. Dentro do contexto deste projeto, decidi remover os dados faltantes, uma vez que se trata de um primeiro ciclo, com dados experimentais.  
 
 ```{r}
 cat("O conjunto de dados original contém", dim(fifas)[1], " linhas e", dim(fifas)[2], "colunas.")
